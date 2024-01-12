@@ -31,7 +31,10 @@
 }
 
 header{
+    display: flex;
+    flex-direction: column;
     text-align: center;
+    justify-content: center;
 }
 
 .logo{
@@ -64,6 +67,9 @@ padding: 0;
     height: 200px;
 }
 
+.boton{
+}
+
 
 .item{
     margin-top: 15pX;
@@ -91,6 +97,7 @@ display: inline-block;
 
 main{
     margin: 50px;
+    width: auto;
 }
 
 body main img{
